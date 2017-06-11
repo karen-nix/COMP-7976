@@ -1,0 +1,9 @@
+---
+applications:
+- name: comp7970-kn
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false
